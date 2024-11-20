@@ -222,6 +222,85 @@
         </div>
       </div>
 
+      
+      <div class="quiz-question">
+        <h5>6.What is the recommended amount of sleep for a child aged 0-6 years old?</h5>
+        <div class="quiz-answer">
+          <input type="radio" name="question6" value="a"> 7-10 hours
+        </div>
+        <div class="quiz-answer">
+          <input type="radio" name="question6" value="b"> 12-16 hours
+        </div>
+        <div class="quiz-answer">
+          <input type="radio" name="question6" value="c"> 8-10 hours
+        </div>
+        <div class="quiz-answer">
+          <input type="radio" name="question6" value="d"> 6-8 hours
+        </div>
+      </div>
+
+      <div class="quiz-question">
+        <h5>7.Which of the following is a positive reinforcement technique for good behavior?</h5>
+        <div class="quiz-answer">
+          <input type="radio" name="question7" value="a"> Ignoring the child
+        </div>
+        <div class="quiz-answer">
+          <input type="radio" name="question7" value="b"> Offering praise or rewards
+        </div>
+        <div class="quiz-answer">
+          <input type="radio" name="question7" value="c"> Threatening punishment
+        </div>
+        <div class="quiz-answer">
+          <input type="radio" name="question7" value="d"> Giving extra homework
+        </div>
+      </div>
+
+      <div class="quiz-question">
+        <h5>8.How can parents effectively manage screen time for their children?</h5>
+        <div class="quiz-answer">
+          <input type="radio" name="question8" value="a"> Allow unrestricted access to devices
+        </div>
+        <div class="quiz-answer">
+          <input type="radio" name="question8" value="b"> Set clear limits and encourage other activities
+        </div>
+        <div class="quiz-answer">
+          <input type="radio" name="question8" value="c"> Use screen time as a punishment
+        </div>
+        <div class="quiz-answer">
+          <input type="radio" name="question8" value="d">  Ban all electronic devices
+        </div>
+      </div>
+
+      <div class="quiz-question">
+        <h5>9.What is the primary goal of "active listening" in parenting?</h5>
+        <div class="quiz-answer">
+          <input type="radio" name="question9" value="a">To allow the child to win arguments
+        </div>
+        <div class="quiz-answer">
+          <input type="radio" name="question9" value="b"> To show the child you value their thoughts and feelings
+        </div>
+        <div class="quiz-answer">
+          <input type="radio" name="question9" value="c"> To teach the child how to communicate better
+        </div>
+        <div class="quiz-answer">
+          <input type="radio" name="question9" value="d">To avoid giving advice
+        </div>
+      </div>
+
+      <div class="quiz-question">
+        <h5>10.At what age should a child start being taught about empathy and sharing?</h5>
+        <div class="quiz-answer">
+          <input type="radio" name="question10" value="a"> 0-6 years
+        </div>
+        <div class="quiz-answer">
+          <input type="radio" name="question10" value="b"> 7-12 years
+        </div>
+        <div class="quiz-answer">
+          <input type="radio" name="question10" value="c"> 13-18 years
+        </div>
+        
+      </div>
+
 
 
       <button type="submit" class="btn btn-custom">Submit</button>
@@ -258,6 +337,11 @@
         question3: 'b',
         question4: 'd',
         question5: 'b',
+        question6: 'b',
+        question7: 'c',
+        question8: 'a',
+        question9: 'b',
+        question10: 'a',
       
       };
 
@@ -271,11 +355,10 @@
 
       
       document.getElementById('quizResult').style.display = 'block';
-      document.getElementById('score').textContent = `Your score is ${score} out of 5`;
+      document.getElementById('score').textContent = `Your score is ${score} out of 10`;
     });
   </script>
 </body>
 </html>
-
 
 
